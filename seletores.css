@@ -1,0 +1,32 @@
+/* 1. Estilizando links */
+a {
+    color: red; /* Cor padrão */
+  }
+  
+  a:hover {
+    color: lime; /* Mudança de cor ao passar o mouse */
+  }
+  
+  /* 2. Customizando parágrafos */
+  p {
+    font-family: Arial; /* Fonte Arial para todos os parágrafos */
+  }
+  
+  h1 + p {
+    font-weight: bold; /* Parágrafos logo após h1 em negrito */
+  }
+  
+  /* 3. Estilizando a classe .destaque */
+  .destaque {
+    font-family: Arial; /* Fonte Arial por padrão */
+  
+  }
+  
+  .destaque p {
+    font-weight: bold; /* Parágrafos com classe .destaque em negrito */
+  }
+  
+  .destaque strong {
+    color: red; /* Elementos strong dentro de .destaque em vermelho */
+  }
+  
